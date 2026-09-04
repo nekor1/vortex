@@ -12,17 +12,17 @@ import lab from "@/assets/lab.jpg";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "VERTEX PHARMA — Sports Pharmacology & Peptides" },
+      { title: "OXY PHARMA — Sports Pharmacology & Peptides" },
       {
         name: "description",
         content:
-          "VERTEX PHARMA — sports pharmacology and peptides with laboratory quality control and athlete support.",
+          "OXY PHARMA — sports pharmacology and peptides with laboratory quality control and athlete support.",
       },
-      { property: "og:title", content: "VERTEX PHARMA — Sports Pharmacology" },
+      { property: "og:title", content: "OXY PHARMA — Sports Pharmacology" },
       {
         property: "og:description",
         content:
-          "Product catalog, laboratory quality protocols and the team behind VERTEX PHARMA.",
+          "Product catalog, laboratory quality protocols and the team behind OXY PHARMA.",
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
@@ -37,7 +37,7 @@ type Language = (typeof LANGS)[number];
 
 const translations = {
   RUS: {
-    heroEyebrow: 'VERTEX PHARMA',
+    heroEyebrow: 'OXY PHARMA',
     heroTitle: 'Спортивная фармакология',
     heroDescription: 'Надёжный производитель препаратов для спортсменов: собственная лаборатория, проверка каждой партии и поддержка на всём курсе.',
     years: '12+',
@@ -48,16 +48,16 @@ const translations = {
     anonymityLabel: 'Анонимность',
     supportLabel: 'Поддержка',
     newsTitle: 'Новости',
-    advantagesTitle: 'Почему VERTEX',
+    advantagesTitle: 'Почему OXY',
     readMore: 'Подробнее',
     request: 'Оставить заявку',
     send: 'Отправить',
     phone: 'Телефон',
     telegram: 'Telegram',
     email: 'Email',
-    copyright: '© 2026 VERTEX PHARMA. Все права защищены.',
+    copyright: '© 2026 OXY PHARMA. Все права защищены.',
     close: "Закрыть", welcome: "Добро пожаловать",
-    welcomeText: "VERTEX PHARMA — спортивная фармакология с лабораторным контролем качества. Выберите язык или сразу переходите в каталог.",
+    welcomeText: "OXY PHARMA — спортивная фармакология с лабораторным контролем качества. Выберите язык или сразу переходите в каталог.",
     news: "Новости", more: "Подробнее", view: "Смотреть", open: "Открыть", goToSite: "Перейти на сайт",
     catalog: "Каталог", quality: "Качество", team: "Команда", questions: "Вопросы", contact: "Связаться",
     sportsPharma: "Спортивная фармакология",
@@ -86,7 +86,7 @@ const translations = {
     orderAlert: "Заказ оформлен! Менеджер свяжется с вами для подтверждения.", orderNamePrompt: "Введите ваше имя:", orderContactPrompt: "Введите телефон или Telegram:", orderError: "Не удалось оформить заказ. Попробуйте ещё раз.", decrease: "Уменьшить", increase: "Увеличить", top: "Наверх",
     newsItems: [
       { tag: "Новости", title: "Розыгрыш экипировки среди клиентов сентября", cta: "Подробнее" },
-      { tag: "Продукт", title: "Новая линейка VERTEX PEPTIDES уже в каталоге", cta: "Смотреть" },
+      { tag: "Продукт", title: "Новая линейка OXY PEPTIDES уже в каталоге", cta: "Смотреть" },
       { tag: "Качество", title: "Опубликованы протоколы лабораторных проверок партии №418", cta: "Открыть" },
     ],
     athleteAchievements: [
@@ -99,15 +99,15 @@ const translations = {
     contactTelegram: "Telegram",
     contactWhatsapp: "WhatsApp",
     contactEmail: "Почта",
-    heroImageAlt: "Линейка препаратов VERTEX PHARMA",
-    labImageAlt: "Производственная лаборатория VERTEX PHARMA",
+    heroImageAlt: "Линейка препаратов OXY PHARMA",
+    labImageAlt: "Производственная лаборатория OXY PHARMA",
     closeCart: "Закрыть корзину",
     cartButton: "Открыть корзину",
-    metaTitle: "VERTEX PHARMA — спортивная фармакология и пептиды",
-    footer: "© 2026 VERTEX PHARMA. Продукция предназначена для профессионального спорта."
+    metaTitle: "OXY PHARMA — спортивная фармакология и пептиды",
+    footer: "© 2026 OXY PHARMA. Продукция предназначена для профессионального спорта."
   },
   ENG: {
-    heroEyebrow: 'VERTEX PHARMA',
+    heroEyebrow: 'OXY PHARMA',
     heroTitle: 'Sports pharmacology',
     heroDescription: 'A reliable manufacturer for athletes: our own laboratory, batch testing and support throughout the course.',
     years: '12+',
@@ -118,15 +118,15 @@ const translations = {
     anonymityLabel: 'Anonymity',
     supportLabel: 'Support',
     newsTitle: 'News',
-    advantagesTitle: 'Why VERTEX',
+    advantagesTitle: 'Why OXY',
     readMore: 'Learn more',
     request: 'Send request',
     send: 'Send',
     phone: 'Phone',
     telegram: 'Telegram',
     email: 'Email',
-    copyright: '© 2026 VERTEX PHARMA. All rights reserved.',
-    close:"Close", welcome:"Welcome", welcomeText:"VERTEX PHARMA — sports pharmacology with laboratory quality control. Choose a language or go straight to the catalog.",
+    copyright: '© 2026 OXY PHARMA. All rights reserved.',
+    close:"Close", welcome:"Welcome", welcomeText:"OXY PHARMA — sports pharmacology with laboratory quality control. Choose a language or go straight to the catalog.",
     news:"News", more:"Learn more", view:"View", open:"Open", goToSite:"Go to website", catalog:"Catalog", quality:"Quality", team:"Team", questions:"FAQ", contact:"Contact",
     sportsPharma:"Sports pharmacology", heroText:"A reliable manufacturer of products for athletes: our own laboratory, batch testing and support throughout the course.",
     consultation:"Consultation", yearsMarket:"years on the market", catalogPositions:"catalog positions", happyClients:"happy clients",
@@ -149,7 +149,7 @@ const translations = {
     cart:"Cart", cartEmpty:"Your cart is empty. Add products from the catalog.", total:"Total", checkout:"Place order", clearCart:"Clear cart", orderAlert:"Order placed! A manager will contact you for confirmation.", orderNamePrompt:"Enter your name:", orderContactPrompt:"Enter your phone or Telegram:", orderError:"Could not place the order. Please try again.", decrease:"Decrease", increase:"Increase", top:"Back to top",
     newsItems: [
       { tag: "News", title: "September equipment giveaway for clients", cta: "Learn more" },
-      { tag: "Product", title: "The new VERTEX PEPTIDES line is now in the catalog", cta: "View" },
+      { tag: "Product", title: "The new OXY PEPTIDES line is now in the catalog", cta: "View" },
       { tag: "Quality", title: "Laboratory test protocols for batch #418 published", cta: "Open" },
     ],
     athleteAchievements: [
@@ -162,15 +162,15 @@ const translations = {
     contactTelegram: "Telegram",
     contactWhatsapp: "WhatsApp",
     contactEmail: "Email",
-    heroImageAlt: "VERTEX PHARMA product line",
-    labImageAlt: "VERTEX PHARMA production laboratory",
+    heroImageAlt: "OXY PHARMA product line",
+    labImageAlt: "OXY PHARMA production laboratory",
     closeCart: "Close cart",
     cartButton: "Open cart",
-    metaTitle: "VERTEX PHARMA — Sports Pharmacology & Peptides",
-    footer:"© 2026 VERTEX PHARMA. Products are intended for professional sports."
+    metaTitle: "OXY PHARMA — Sports Pharmacology & Peptides",
+    footer:"© 2026 OXY PHARMA. Products are intended for professional sports."
   },
   DE: {
-    heroEyebrow: 'VERTEX PHARMA',
+    heroEyebrow: 'OXY PHARMA',
     heroTitle: 'Sportpharmakologie',
     heroDescription: 'Zuverlässiger Hersteller für Sportler: eigenes Labor, Prüfung jeder Charge und Unterstützung während des gesamten Kurses.',
     years: '12+',
@@ -181,15 +181,15 @@ const translations = {
     anonymityLabel: 'Anonymität',
     supportLabel: 'Support',
     newsTitle: 'Neuigkeiten',
-    advantagesTitle: 'Warum VERTEX',
+    advantagesTitle: 'Warum OXY',
     readMore: 'Mehr erfahren',
     request: 'Anfrage senden',
     send: 'Senden',
     phone: 'Telefon',
     telegram: 'Telegram',
     email: 'E-Mail',
-    copyright: '© 2026 VERTEX PHARMA. Alle Rechte vorbehalten.',
-    close:"Schließen", welcome:"Willkommen", welcomeText:"VERTEX PHARMA — Sportpharmakologie mit laborbasierter Qualitätskontrolle. Wählen Sie eine Sprache oder gehen Sie direkt zum Katalog.",
+    copyright: '© 2026 OXY PHARMA. Alle Rechte vorbehalten.',
+    close:"Schließen", welcome:"Willkommen", welcomeText:"OXY PHARMA — Sportpharmakologie mit laborbasierter Qualitätskontrolle. Wählen Sie eine Sprache oder gehen Sie direkt zum Katalog.",
     news:"Neuigkeiten", more:"Mehr erfahren", view:"Ansehen", open:"Öffnen", goToSite:"Zur Website", catalog:"Katalog", quality:"Qualität", team:"Team", questions:"Fragen", contact:"Kontakt",
     sportsPharma:"Sportpharmakologie", heroText:"Zuverlässiger Hersteller für Sportler: eigenes Labor, Prüfung jeder Charge und Unterstützung während des gesamten Kurses.",
     consultation:"Beratung", yearsMarket:"Jahre am Markt", catalogPositions:"Produkte im Katalog", happyClients:"zufriedene Kunden",
@@ -212,7 +212,7 @@ const translations = {
     cart:"Warenkorb", cartEmpty:"Der Warenkorb ist leer. Fügen Sie Produkte aus dem Katalog hinzu.", total:"Gesamt", checkout:"Bestellung aufgeben", clearCart:"Warenkorb leeren", orderAlert:"Bestellung aufgegeben! Ein Manager wird Sie zur Bestätigung kontaktieren.", orderNamePrompt:"Geben Sie Ihren Namen ein:", orderContactPrompt:"Telefon oder Telegram eingeben:", orderError:"Die Bestellung konnte nicht aufgegeben werden. Bitte versuchen Sie es erneut.", decrease:"Verringern", increase:"Erhöhen", top:"Nach oben",
     newsItems: [
       { tag: "Neuigkeiten", title: "September-Verlosung von Ausrüstung für Kunden", cta: "Mehr erfahren" },
-      { tag: "Produkt", title: "Die neue VERTEX PEPTIDES-Linie ist jetzt im Katalog", cta: "Ansehen" },
+      { tag: "Produkt", title: "Die neue OXY PEPTIDES-Linie ist jetzt im Katalog", cta: "Ansehen" },
       { tag: "Qualität", title: "Laborprotokolle für Charge Nr. 418 veröffentlicht", cta: "Öffnen" },
     ],
     athleteAchievements: [
@@ -225,15 +225,15 @@ const translations = {
     contactTelegram: "Telegram",
     contactWhatsapp: "WhatsApp",
     contactEmail: "E-Mail",
-    heroImageAlt: "VERTEX PHARMA Produktlinie",
-    labImageAlt: "Produktionslabor von VERTEX PHARMA",
+    heroImageAlt: "OXY PHARMA Produktlinie",
+    labImageAlt: "Produktionslabor von OXY PHARMA",
     closeCart: "Warenkorb schließen",
     cartButton: "Warenkorb öffnen",
-    metaTitle: "VERTEX PHARMA — Sportpharmakologie & Peptide",
-    footer:"© 2026 VERTEX PHARMA. Produkte sind für den professionellen Sport bestimmt."
+    metaTitle: "OXY PHARMA — Sportpharmakologie & Peptide",
+    footer:"© 2026 OXY PHARMA. Produkte sind für den professionellen Sport bestimmt."
   },
   FR: {
-    heroEyebrow: 'VERTEX PHARMA',
+    heroEyebrow: 'OXY PHARMA',
     heroTitle: 'Pharmacologie sportive',
     heroDescription: 'Fabricant fiable pour les sportifs : laboratoire interne, contrôle de chaque lot et accompagnement tout au long du parcours.',
     years: '12+',
@@ -244,15 +244,15 @@ const translations = {
     anonymityLabel: 'Anonymat',
     supportLabel: 'Support',
     newsTitle: 'Actualités',
-    advantagesTitle: 'Pourquoi VERTEX',
+    advantagesTitle: 'Pourquoi OXY',
     readMore: 'En savoir plus',
     request: 'Envoyer la demande',
     send: 'Envoyer',
     phone: 'Téléphone',
     telegram: 'Telegram',
     email: 'E-mail',
-    copyright: '© 2026 VERTEX PHARMA. Tous droits réservés.',
-    close:"Fermer", welcome:"Bienvenue", welcomeText:"VERTEX PHARMA — pharmacologie sportive avec contrôle qualité en laboratoire. Choisissez une langue ou accédez directement au catalogue.",
+    copyright: '© 2026 OXY PHARMA. Tous droits réservés.',
+    close:"Fermer", welcome:"Bienvenue", welcomeText:"OXY PHARMA — pharmacologie sportive avec contrôle qualité en laboratoire. Choisissez une langue ou accédez directement au catalogue.",
     news:"Actualités", more:"En savoir plus", view:"Voir", open:"Ouvrir", goToSite:"Accéder au site", catalog:"Catalogue", quality:"Qualité", team:"Équipe", questions:"Questions", contact:"Contact",
     sportsPharma:"Pharmacologie sportive", heroText:"Fabricant fiable de produits pour sportifs : laboratoire interne, contrôle de chaque lot et accompagnement tout au long du parcours.",
     consultation:"Consultation", yearsMarket:"ans sur le marché", catalogPositions:"produits au catalogue", happyClients:"clients satisfaits",
@@ -275,7 +275,7 @@ const translations = {
     cart:"Panier", cartEmpty:"Votre panier est vide. Ajoutez des produits du catalogue.", total:"Total", checkout:"Passer la commande", clearCart:"Vider le panier", orderAlert:"Commande passée ! Un responsable vous contactera pour confirmation.", orderNamePrompt:"Entrez votre nom :", orderContactPrompt:"Entrez votre téléphone ou Telegram :", orderError:"Impossible de passer la commande. Réessayez.", decrease:"Diminuer", increase:"Augmenter", top:"Haut de page",
     newsItems: [
       { tag: "Actualités", title: "Tirage au sort d'équipements pour les clients en septembre", cta: "En savoir plus" },
-      { tag: "Produit", title: "La nouvelle gamme VERTEX PEPTIDES est maintenant au catalogue", cta: "Voir" },
+      { tag: "Produit", title: "La nouvelle gamme OXY PEPTIDES est maintenant au catalogue", cta: "Voir" },
       { tag: "Qualité", title: "Protocoles de laboratoire de la série n°418 publiés", cta: "Ouvrir" },
     ],
     athleteAchievements: [
@@ -288,12 +288,12 @@ const translations = {
     contactTelegram: "Telegram",
     contactWhatsapp: "WhatsApp",
     contactEmail: "E-mail",
-    heroImageAlt: "Gamme de produits VERTEX PHARMA",
-    labImageAlt: "Laboratoire de production VERTEX PHARMA",
+    heroImageAlt: "Gamme de produits OXY PHARMA",
+    labImageAlt: "Laboratoire de production OXY PHARMA",
     closeCart: "Fermer le panier",
     cartButton: "Ouvrir le panier",
-    metaTitle: "VERTEX PHARMA — Pharmacologie sportive & peptides",
-    footer:"© 2026 VERTEX PHARMA. Produits destinés au sport professionnel."
+    metaTitle: "OXY PHARMA — Pharmacologie sportive & peptides",
+    footer:"© 2026 OXY PHARMA. Produits destinés au sport professionnel."
   }
 } as const;
 
@@ -316,7 +316,7 @@ const athletes = [
   {
     img: athlete3,
     name: "Алина Верещагина",
-    handle: "@alina.vertex",
+    handle: "@alina.oxy",
   },
 ];
 
@@ -641,7 +641,7 @@ function CartDrawer({
             <div className="flex items-center justify-between border-b border-border p-6">
               <div>
                 <span className="text-[10px] font-semibold uppercase tracking-[0.25em] text-accent">
-                  VERTEX PHARMA
+                  OXY PHARMA
                 </span>
                 <h2 className="mt-1 font-display text-3xl uppercase">
                   {t.checkout}
@@ -830,7 +830,7 @@ function CartDrawer({
 function Index() {
   const [language, setLanguage] = useState<Language>(() => {
     try {
-      const saved = localStorage.getItem("vertex-language") as Language | null;
+      const saved = localStorage.getItem("oxy-language") as Language | null;
       return saved && LANGS.includes(saved) ? saved : "RUS";
     } catch {
       return "RUS";
@@ -841,7 +841,7 @@ function Index() {
 
   useEffect(() => {
     try {
-      localStorage.setItem("vertex-language", language);
+      localStorage.setItem("oxy-language", language);
     } catch {
       /* ignore */
     }
@@ -886,7 +886,7 @@ useEffect(() => {
 
   useEffect(() => {
     try {
-      const raw = localStorage.getItem("vertex-cart");
+      const raw = localStorage.getItem("oxy-cart");
       if (raw) setCart(JSON.parse(raw));
     } catch {
       /* ignore */
@@ -895,7 +895,7 @@ useEffect(() => {
 
   useEffect(() => {
     try {
-      localStorage.setItem("vertex-cart", JSON.stringify(cart));
+      localStorage.setItem("oxy-cart", JSON.stringify(cart));
     } catch {
       /* ignore */
     }
@@ -951,7 +951,7 @@ useEffect(() => {
               V
             </span>
             <span className="leading-none">
-              <span className="block font-display text-lg font-black tracking-tight">VERTEX</span>
+              <span className="block font-display text-lg font-black tracking-tight">OXY</span>
               <span className="block text-[10px] uppercase tracking-[0.35em] text-muted-foreground">
                 pharma
               </span>
@@ -1008,7 +1008,7 @@ useEffect(() => {
               {t.sportsPharma}
             </span>
             <h1 className="mt-6 font-display text-6xl uppercase leading-[0.9] sm:text-7xl lg:text-8xl">
-              Vertex
+              Oxy
               <span className="block text-gradient">Pharma</span>
             </h1>
             <p className="mt-6 max-w-md text-base text-muted-foreground">{t.heroText}</p>
@@ -1175,7 +1175,7 @@ useEffect(() => {
               <div className="p-6">
                 <h3 className="text-2xl uppercase">{a.name}</h3>
                 <ul className="mt-4 space-y-2 text-sm text-muted-foreground">
-                  {t.athleteAchievements[athleteIndex].map((x) => (
+                  {(t.athleteAchievements[athleteIndex] ?? []).map((x) => (
                     <li key={x} className="border-l-2 border-primary/60 pl-3">
                       {x}
                     </li>
@@ -1220,9 +1220,9 @@ useEffect(() => {
             <h2 className="font-display text-4xl uppercase sm:text-5xl">{t.contactTitle}</h2>
             <p className="mt-5 max-w-md text-sm text-muted-foreground">{t.contactText}</p>
             <div className="mt-8 space-y-2 text-sm text-muted-foreground">
-              <p>{t.contactTelegram}: @vertexpharma_manager</p>
+              <p>{t.contactTelegram}: @oxypharma_manager</p>
               <p>{t.contactWhatsapp}: +7 (900) 000-00-00</p>
-              <p>{t.contactEmail}: info@vertexpharma.shop</p>
+              <p>{t.contactEmail}: info@oxypharma.shop</p>
             </div>
           </div>
           <form
